@@ -1,0 +1,52 @@
+/* body{
+    background-color: black;
+}
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: aqua;
+}
+div{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.button{
+    background-color: blue;
+    color: white;
+    padding: 5px 11px;
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    color: yellowgreen;
+    background-color: black;
+} */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: black;
+}
+.inside-container
+{
+    display: flex;
+    border-radius: 30%;
+    justify-content: center;
+    background-color: yellow;
+    padding: 10px;
+    height: 20px;
+    width: 50px;
+}
+#toggle1{
+    display: none;
+}
+.btn{
+    background-color: rgb(125, 20, 20);
+    color: white;
+    padding: 0px 11px;
+    cursor: pointer;
+}
